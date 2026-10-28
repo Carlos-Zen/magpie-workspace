@@ -1,0 +1,14 @@
+magpie-workspace is MIT licensed.
+
+It builds on and pulls official images from these projects:
+
+- Coder (https://github.com/coder/coder) — AGPL-3.0. The Coder server image is
+  pulled from ghcr.io/coder/coder; this repository does not vendor Coder source.
+- Magpie (https://github.com/yetone/magpie) — MIT. The official Magpie image is
+  used as a build stage; the Magpie binary is copied into the workspace image.
+- noVNC (https://github.com/novnc/noVNC) — MPL-2.0, installed from Debian.
+- Chromium, Xvfb, Fluxbox, x11vnc, websockify and the other Debian packages are
+  covered by their respective licenses.
+
+Claude Code is a product of Anthropic; this project only provides the runtime
+around the user-installed CLI. Observe Anthropic's terms of service.

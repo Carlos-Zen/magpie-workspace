@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.git/
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.cache/
+tmp/
+*.zip
+
+# local Coder provider socket
+.coder/
