@@ -79,7 +79,7 @@ Claude Code 订阅通常是个人账号。多人共用一个中转站、一个 A
 ### 1. 克隆并配置
 
 ```bash
-git clone https://github.com/<your-account>/magpie-workspace.git
+git clone https://github.com/Carlos-Zen/magpie-workspace.git
 cd magpie-workspace
 cp .env.example .env
 $EDITOR .env

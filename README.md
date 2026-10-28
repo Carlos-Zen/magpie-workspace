@@ -98,7 +98,7 @@ Developer browser / VS Code
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/<your-account>/magpie-workspace.git
+git clone https://github.com/Carlos-Zen/magpie-workspace.git
 cd magpie-workspace
 cp .env.example .env
 $EDITOR .env
